@@ -15,3 +15,9 @@
 		temprature , door state  
 	behavior : 
 		cooling ,
+
+4. water bottel  
+	state :
+		material , capacity ,color  
+	behavior : 
+		refill  , isopen 
