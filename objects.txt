@@ -95,3 +95,9 @@
 		batteryLevel , cucrrentSpeed , isFlying , camerOn  
 	behavior : 
 		Recordign , adjustSpeed , charging  
+
+17. plane
+	state :
+		cucrrentSpeed , isFlying, fuelLevel, currentGear , passengerCount , currentAltitude 
+	behavior : 
+		refuel , changingSpeed , changeAltitude
