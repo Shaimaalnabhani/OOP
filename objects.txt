@@ -114,3 +114,10 @@
 		 
 	behavior : 
 		puase, stop changeVolume
+
+
+20. clock 
+	state :
+		time , alarm
+	behavior : 
+		Ring , setTime , setAlarm 
