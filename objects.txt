@@ -52,3 +52,10 @@
 		ink color , isworking 
 	behavior : 
 		write , dryingout 
+
+
+10. camera 
+	state :
+		lenstype , Batterylevel 
+	behavior : 
+		ZoomIn , ZoomOut
