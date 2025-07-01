@@ -71,3 +71,9 @@
 		hight , age, hasFruit 
 	behavior : 
 		grow , shedLeave
+
+13. turtle
+	state :
+		shellColor , age, currentSpeed  
+	behavior : 
+		swim , hide
