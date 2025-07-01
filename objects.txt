@@ -21,3 +21,10 @@
 		material , capacity ,color  
 	behavior : 
 		refill  , isopen 
+
+
+5. light 
+	state :
+		color , on , off   
+	behavior : 
+		isON ,isOFF , Blinking 
