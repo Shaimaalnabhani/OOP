@@ -101,3 +101,9 @@
 		cucrrentSpeed , isFlying, fuelLevel, currentGear , passengerCount , currentAltitude 
 	behavior : 
 		refuel , changingSpeed , changeAltitude
+
+18. student 
+	state :
+		grade , GPA, major 
+	behavior : 
+		study , takeExam , AttendClass 
