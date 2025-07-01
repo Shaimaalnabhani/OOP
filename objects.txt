@@ -10,3 +10,8 @@
 	behavior : 
 		charging ,calling ,send massege
  
+3. Refrigerator 
+	state :
+		temprature , door state  
+	behavior : 
+		cooling ,
