@@ -34,3 +34,9 @@
 		current gear , current speed   
 	behavior : 
 		changing gear  , appling break , accelariting 
+
+7. ball 
+	state :
+		color , type   
+	behavior : 
+		rolling  , deflete , inflate  
