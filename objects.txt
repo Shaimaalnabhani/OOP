@@ -28,3 +28,9 @@
 		color , on , off   
 	behavior : 
 		isON ,isOFF , Blinking 
+
+6. car  
+	state :
+		current gear , current speed   
+	behavior : 
+		changing gear  , appling break , accelariting 
