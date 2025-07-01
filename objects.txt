@@ -46,3 +46,9 @@
 		battery level , brand , screen size 
 	behavior : 
 		charging ,runappliction ,shutdown, boot
+
+9. pen
+	state :
+		ink color , isworking 
+	behavior : 
+		write , dryingout 
