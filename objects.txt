@@ -3,3 +3,10 @@
 		speed level , 
 	behavior : 
 		change speed ,turn on ,turn off
+
+2. Phone 
+	state :
+		battery level , brand , RAMsize 
+	behavior : 
+		charging ,calling ,send massege
+ 
