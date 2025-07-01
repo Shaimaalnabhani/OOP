@@ -107,3 +107,10 @@
 		grade , GPA, major 
 	behavior : 
 		study , takeExam , AttendClass 
+
+19. Speaker  
+	state :
+		volume, isConnected
+		 
+	behavior : 
+		puase, stop changeVolume
