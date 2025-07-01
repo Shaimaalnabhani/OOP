@@ -1,0 +1,5 @@
+1. Fan 
+	state :
+		speed level , 
+	behavior : 
+		change speed ,turn on ,turn off
