@@ -65,3 +65,9 @@
 		isFlying , hungry 
 	behavior : 
 		Eating , Flying 
+
+12. tree
+	state :
+		hight , age, hasFruit 
+	behavior : 
+		grow , shedLeave
