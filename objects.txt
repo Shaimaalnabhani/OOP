@@ -89,3 +89,9 @@
 		temprature , FanLevel , isOn 
 	behavior : 
 		Cool , turnOn, turnOff
+
+16. Drone  
+	state :
+		batteryLevel , cucrrentSpeed , isFlying , camerOn  
+	behavior : 
+		Recordign , adjustSpeed , charging  
