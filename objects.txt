@@ -77,3 +77,9 @@
 		shellColor , age, currentSpeed  
 	behavior : 
 		swim , hide
+
+14. Butterfly 
+	state :
+		wingColor , stage, isFlying  
+	behavior : 
+		Fly , Feed 
