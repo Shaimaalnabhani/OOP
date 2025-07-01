@@ -83,3 +83,9 @@
 		wingColor , stage, isFlying  
 	behavior : 
 		Fly , Feed 
+
+15. Air condition 
+	state :
+		temprature , FanLevel , isOn 
+	behavior : 
+		Cool , turnOn, turnOff
