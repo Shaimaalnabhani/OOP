@@ -40,3 +40,9 @@
 		color , type   
 	behavior : 
 		rolling  , deflete , inflate  
+
+8. Laptop 
+	state :
+		battery level , brand , screen size 
+	behavior : 
+		charging ,runappliction ,shutdown, boot
