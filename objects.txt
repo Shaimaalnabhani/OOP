@@ -1,0 +1,123 @@
+1. Fan 
+	state :
+		speed level , 
+	behavior : 
+		change speed ,turn on ,turn off
+
+2. Phone 
+	state :
+		battery level , brand , RAMsize 
+	behavior : 
+		charging ,calling ,send massege
+ 
+3. Refrigerator 
+	state :
+		temprature , door state  
+	behavior : 
+		cooling ,
+
+4. water bottel  
+	state :
+		material , capacity ,color  
+	behavior : 
+		refill  , isopen 
+
+
+5. light 
+	state :
+		color , on , off   
+	behavior : 
+		isON ,isOFF , Blinking 
+
+6. car  
+	state :
+		current gear , current speed   
+	behavior : 
+		changing gear  , appling break , accelariting 
+
+7. ball 
+	state :
+		color , type   
+	behavior : 
+		rolling  , deflete , inflate  
+
+8. Laptop 
+	state :
+		battery level , brand , screen size 
+	behavior : 
+		charging ,runappliction ,shutdown, boot
+
+9. pen
+	state :
+		ink color , isworking 
+	behavior : 
+		write , dryingout 
+
+
+10. camera 
+	state :
+		lenstype , Batterylevel 
+	behavior : 
+		ZoomIn , ZoomOut
+
+11. bired
+	state :
+		isFlying , hungry 
+	behavior : 
+		Eating , Flying 
+
+12. tree
+	state :
+		hight , age, hasFruit 
+	behavior : 
+		grow , shedLeave
+
+13. turtle
+	state :
+		shellColor , age, currentSpeed  
+	behavior : 
+		swim , hide
+
+14. Butterfly 
+	state :
+		wingColor , stage, isFlying  
+	behavior : 
+		Fly , Feed 
+
+15. Air condition 
+	state :
+		temprature , FanLevel , isOn 
+	behavior : 
+		Cool , turnOn, turnOff
+
+16. Drone  
+	state :
+		batteryLevel , cucrrentSpeed , isFlying , camerOn  
+	behavior : 
+		Recordign , adjustSpeed , charging  
+
+17. plane
+	state :
+		cucrrentSpeed , isFlying, fuelLevel, currentGear , passengerCount , currentAltitude 
+	behavior : 
+		refuel , changingSpeed , changeAltitude
+
+18. student 
+	state :
+		grade , GPA, major 
+	behavior : 
+		study , takeExam , AttendClass 
+
+19. Speaker  
+	state :
+		volume, isConnected
+		 
+	behavior : 
+		puase, stop changeVolume
+
+
+20. clock 
+	state :
+		time , alarm
+	behavior : 
+		Ring , setTime , setAlarm 
