@@ -187,6 +187,24 @@ public class Laptop
 
 			
 
+public class Pen  
+	{
+		String inkcolour;
+                boolean ink;
+
+		public void Write( )
+		    {
+			if (ink == true){
+			pen able to be used ;
+			System.out.println(" the ink colour is :  "+ inkcolour);
+		    }
+			else {
+			refill the ink or throw the pen; }
+		
+	}
+
+
+			
 
 			
 
