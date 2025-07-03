@@ -122,5 +122,30 @@ public class Light
 		
 	}
 
+
+
+
+public class Car    
+	{
+		int gear ; 
+		int speed ;
+ 
+		public void changingGear (int newGearNumber )
+			{
+			this.gear= newGearNumber;}
+
+		public static void changingspeed (Boolean speedChange )
+			{
+				if (speedChange == true) {
+			increase speed;}
+				else if(speedChange == false)  {
+			decrease speed;}
+				else   {
+			do nothing;}}
+	}
+
+
+			
+
 		
 
