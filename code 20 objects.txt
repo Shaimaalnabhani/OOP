@@ -1,0 +1,476 @@
+public class Fan   
+	{
+		int speedLevel;
+                boolean isOn; 
+
+		public static void Power(Boolean powerOn )
+			{
+				if (powerOn == true){
+					Fan is on;}
+				else{
+					Fan is off; }
+			}
+
+		public static void changingSpeed (Boolean speedChange )
+			{
+				if (speedChange == true) {
+					increase speed;}
+				else if(speedChange == false)  {
+					decrease speed;}
+				else   {
+					do nothing;}
+			}
+	}
+
+
+
+
+public class Phone {
+
+       
+     boolean powerOn;
+     int batteryLevel;
+     boolean inCall;
+    
+
+     public void powerOn(powerOn) {
+         if (powerOn==true);
+         System.out.println("phone powered on.");    
+}
+
+         else{
+         System.out.println("phone powered off.");    
+}
+
+
+     public void makeCall() {
+        if (powerOn==true){
+ 	 inCall=true;	 	 		
+         System.out.println("calling"+number);
+      }    
+        else{
+        System.out.println("no calling");  
+}
+
+
+     public void batteryLevel(int batterylevel) {
+     if (batterylevel<=15){ 
+     System.out.println("battery low"); 
+}
+     else{
+     System.out.println("do nothing");  
+}
+
+}
+
+
+
+
+public class Refrigerator   
+	{
+		int temprature ;
+                boolean doorstate; 
+
+		public void cooling(int initialtemp , boolean isOpen )
+			{
+			    this.temperature = initialTemp;
+			      if( isOpen == true ){
+		          	the door is opened ;
+                                 }
+			    else {
+			       the door is closed ;
+                                 }
+                          }
+          }
+
+
+
+
+public class WaterBottel
+	{
+	        int capacity;
+                
+
+		public void refill(int  newWaterLevel )
+			{
+			this.capacity=  newWaterLevel;}
+			
+
+		public void Open (Boolean isOpen )
+			{
+				if (isOpen == true) {
+			the WaterBottel is opened;}
+				else   {
+			the WaterBottel is closed;}}
+	}
+
+
+
+public class Light  
+	{
+                boolean isOn; 
+
+		public void Power( )
+		     {
+			if (isOn == true){
+				Light is on;}
+			else if (isOn == false){
+				Light is off; }
+			else   {
+				Light is blinking;}
+                       }
+		
+	}
+
+
+
+
+public class Car    
+	{
+		int gear ; 
+		int speed ;
+ 
+		public void changingGear (int newGearNumber )
+			{
+			this.gear= newGearNumber;}
+
+		public static void changingspeed (Boolean speedChange )
+			{
+				if (speedChange == true) {
+			increase speed;}
+				else if(speedChange == false)  {
+			decrease speed;}
+				else   {
+			do nothing;}}
+	}
+
+
+
+public class Ball   
+	{
+		String balltype;
+                int currentSize; 
+
+		public void rollingBall( boolean isRolling)
+			{
+			if (isRolling == true){
+			ball is rolling;}
+			else{
+			ball is not rolling ; }}
+
+		public void ballsize (int ballSize )
+			{
+			this.currentSize = ballSize;
+       			if (this.currentSize <= 10) {
+            			The ball is in deflate;}
+       			else if (this.currentSize <= 20) {
+           			 The ball is in normal;}
+         		else {
+            			The ball is in inflate;}
+			
+				}
+	}
+
+
+
+public class Laptop   
+	{
+		int bettryLevel;
+                int screenSize; 
+
+		public void Battery(int  newBettryLevel )
+			{
+			System.out.println("The screen size is "+ screenSize);	
+			this.bettryLevel= newBettryLevel;}
+			
+	}
+
+			
+
+public class Pen  
+	{
+		String inkcolour;
+                boolean ink;
+
+		public void Write( )
+		    {
+			if (ink == true){
+			pen able to be used ;
+			System.out.println(" the ink colour is :  "+ inkcolour);
+		    }
+			else {
+			refill the ink or throw the pen; }
+		
+	}
+
+
+
+public class Camera {
+
+       boolean powerOn;
+       boolean mood;
+       int zoom;
+
+     public void powerOn(boolean powerOn) {
+     if(powerOn==true){
+     camera powered on;
+}
+     else{
+        camera powered off;
+}
+
+}
+
+    public void changinMood(boolean moodChange){
+       if (moodChange==true){
+       camera is turned on;
+
+}
+       else{
+       camera is turned off;
+}
+}
+    
+        
+   public void zoomIn(int zoomLevel){
+      if(zoomLevel>=50){
+         zoom in;
+}
+      else{
+         zoom out;
+}
+}
+
+
+
+
+public class Bird  
+    {
+		boolean isHungry;
+                int flyingSpeed; 
+
+		public void Eating ()
+			{
+			if (isHungry == true){
+			feed the bired;}
+			else{
+			the bired is full; }
+         }
+
+		public void Flying (int speed )
+			{
+			  this.flyingSpeed=  speed;}
+		
+     }  
+
+
+
+public class Tree  
+    {
+		int treeage;
+                int treeheight; 
+		boolean Fruit ;
+
+		public void Grow ()
+			{
+			int newAge;
+			this.treeage= newAge;
+			int newTreeHeight;
+			this.treeheight= newTreeHeight;}
+
+		public void shedLeave ( )
+		   {
+			if (Fruit == true) {
+			hearvest the fruit;} 
+		   else   {
+			the tree has to shed its leaves ;}
+     }  
+
+
+
+
+public class Turtle  
+    {
+		int  age;
+                int Speed; 
+
+		public void Swimming (int turtleSpeed , int newAge )
+			{
+			this.age= newAge;
+			this.Speed=  turtleSpeed;}
+         }
+
+
+
+
+public class Butterfly   
+    {
+	string wingcolour; 
+	int stage; 
+        Boolean isFlying ;
+	boolean isHungry; 
+
+  
+		public void Flying (int newStage )
+			{
+			if (isFlying == true){
+			System.out.println("the wing colour is : "+wingcolour);}
+			else{
+			this.stage=newStage }
+        		 }
+
+		public void Eating ()
+			{
+			if (isHungry == true){
+			Butterfly needs food ;}
+			else{
+			No need to eat;}
+			}
+    }
+    
+
+
+
+public class AC   
+	{
+		int temprature ;
+		int fanlevel ; 
+		boolean isOn; 
+
+			public void Power(  )
+		     {
+			if (isOn == true){
+				AC is on;
+				System.out.println("AC is on "+ "The fan level is "+ fanlevel + "the tempruature is " + tempurature);
+			}
+			else   {
+				AC is off;}
+                        }
+      }			
+
+
+
+
+
+public class Drone 
+	{
+		int batteryLevel ;
+		int speed ; 
+		Boolean isFlying
+		boolean camera; 
+		boolean isOn;
+
+			public void Flying ( int newSpeed)
+			{
+				if (isOn == true){
+					if (isFlying == true){
+						this.speed=  newSpeed;
+						System.out.println("Drone is on and The battery level is "+ batteryLevel);
+						System.out.println("the camera is ON  and the speed is " + newSpeed);}
+					else{
+						System.out.println("Drone is on and The battery level is "+ batteryLevel);
+					 }
+
+				else {
+		System.out.println("Drone is OFF);}
+
+			} 
+	 }
+
+
+
+public class Plane  
+	{
+		int fuelLevel ;
+		int speed ; 
+		int  Altitude ; 
+
+		
+
+			public void changingSpeed (int newSpeed)
+			{
+			    this.speed= newSpeed;}
+			
+			public void refuel (int newFuelLevel)
+			{
+			    this.fuelLevel= newFuelLevel;}
+
+			public void changingAltitude (int newAltitude)
+			{
+			    this.Altitude= newAltitude;}
+
+
+	} 
+				
+
+
+
+public class Student
+ {
+
+       
+     boolean attendance;
+     int studyHours;
+ 
+     public void AttendClasses(boolean attend )
+		{
+			if (attend==true){
+                         student is present;
+			}
+                         else{
+                         student is absent;
+				}
+
+		}
+
+
+     public void studyHours(int hoursNumber )
+		{
+	this.studyHours=hoursNumber;
+		}
+
+}			
+
+
+public class Speaker  
+	{
+		int volumeLevel ; 
+		Boolean isconnected; 
+
+			public void Working  ( )
+			{
+				if (isconnected == true){
+						System.out.println("the volume level is : " + volumeLevel);}
+					else{
+						System.out.println("disconnected");
+					 }
+			} 
+
+	}			
+
+
+	
+
+
+
+public class Clock 
+	{
+		int time ; 
+		int  alarm ; 
+
+			public void changingTime (int newTime)
+			{
+			    this.time= newTime;}
+
+			public void changingAlarm (int newAlarm)
+			{
+			    this.alarm= newAlarm;}
+
+			
+
+					
+			
+	}		
+
+		
+
