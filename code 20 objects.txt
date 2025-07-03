@@ -288,6 +288,24 @@ public class Tree
 
 
 
+
+public class Turtle  
+    {
+		int  age;
+                int Speed; 
+
+		public void Swimming (int turtleSpeed , int newAge )
+			{
+			this.age= newAge;
+			this.Speed=  turtleSpeed;}
+         }
+
+    
+
+			
+
+
+
 			
 
 			
