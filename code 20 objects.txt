@@ -1,0 +1,23 @@
+public class Fan   
+	{
+		int speedLevel;
+                boolean isOn; 
+
+		public static void Power(Boolean powerOn )
+			{
+				if (powerOn == true){
+					Fan is on;}
+				else{
+					Fan is off; }
+			}
+
+		public static void changingSpeed (Boolean speedChange )
+			{
+				if (speedChange == true) {
+					increase speed;}
+				else if(speedChange == false)  {
+					decrease speed;}
+				else   {
+					do nothing;}
+			}
+	}
