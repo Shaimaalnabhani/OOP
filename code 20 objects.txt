@@ -105,5 +105,22 @@ public class WaterBottel
 	}
 
 
+
+public class Light  
+	{
+                boolean isOn; 
+
+		public void Power( )
+		     {
+			if (isOn == true){
+				Light is on;}
+			else if (isOn == false){
+				Light is off; }
+			else   {
+				Light is blinking;}
+                       }
+		
+	}
+
 		
 
