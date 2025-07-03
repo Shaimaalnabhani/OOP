@@ -449,7 +449,28 @@ public class Speaker
 	}			
 
 
+	
+
+
+
+public class Clock 
+	{
+		int time ; 
+		int  alarm ; 
+
+			public void changingTime (int newTime)
+			{
+			    this.time= newTime;}
+
+			public void changingAlarm (int newAlarm)
+			{
+			    this.alarm= newAlarm;}
+
 			
+
+					
+			
+	}		
 
 		
 
