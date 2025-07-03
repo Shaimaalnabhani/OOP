@@ -329,7 +329,24 @@ public class Butterfly
     }
     
 
-			
+
+
+public class AC   
+	{
+		int temprature ;
+		int fanlevel ; 
+		boolean isOn; 
+
+			public void Power(  )
+		     {
+			if (isOn == true){
+				AC is on;
+				System.out.println("AC is on "+ "The fan level is "+ fanlevel + "the tempruature is " + tempurature);
+			}
+			else   {
+				AC is off;}
+                        }
+      }			
 
 
 
