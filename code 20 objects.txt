@@ -21,3 +21,46 @@ public class Fan
 					do nothing;}
 			}
 	}
+
+
+
+
+public class Phone {
+
+       
+     boolean powerOn;
+     int batteryLevel;
+     boolean inCall;
+    
+
+     public void powerOn(powerOn) {
+         if (powerOn==true);
+         System.out.println("phone powered on.");    
+}
+
+         else{
+         System.out.println("phone powered off.");    
+}
+
+
+     public void makeCall() {
+        if (powerOn==true){
+ 	 inCall=true;	 	 		
+         System.out.println("calling"+number);
+      }    
+        else{
+        System.out.println("no calling");  
+}
+
+
+     public void batteryLevel(int batterylevel) {
+     if (batterylevel<=15){ 
+     System.out.println("battery low"); 
+}
+     else{
+     System.out.println("do nothing");  
+}
+
+}
+
+
