@@ -378,7 +378,30 @@ public class Drone
 	 }
 
 
+
+public class Plane  
+	{
+		int fuelLevel ;
+		int speed ; 
+		int  Altitude ; 
+
+		
+
+			public void changingSpeed (int newSpeed)
+			{
+			    this.speed= newSpeed;}
 			
+			public void refuel (int newFuelLevel)
+			{
+			    this.fuelLevel= newFuelLevel;}
+
+			public void changingAltitude (int newAltitude)
+			{
+			    this.Altitude= newAltitude;}
+
+
+	} 
+				
 
 			
 
