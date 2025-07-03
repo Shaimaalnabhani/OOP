@@ -431,7 +431,22 @@ public class Student
 
 }			
 
-			
+
+public class Speaker  
+	{
+		int volumeLevel ; 
+		Boolean isconnected; 
+
+			public void Working  ( )
+			{
+				if (isconnected == true){
+						System.out.println("the volume level is : " + volumeLevel);}
+					else{
+						System.out.println("disconnected");
+					 }
+			} 
+
+	}			
 
 
 			
