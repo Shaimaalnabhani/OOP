@@ -300,6 +300,33 @@ public class Turtle
 			this.Speed=  turtleSpeed;}
          }
 
+
+
+
+public class Butterfly   
+    {
+	string wingcolour; 
+	int stage; 
+        Boolean isFlying ;
+	boolean isHungry; 
+
+  
+		public void Flying (int newStage )
+			{
+			if (isFlying == true){
+			System.out.println("the wing colour is : "+wingcolour);}
+			else{
+			this.stage=newStage }
+        		 }
+
+		public void Eating ()
+			{
+			if (isHungry == true){
+			Butterfly needs food ;}
+			else{
+			No need to eat;}
+			}
+    }
     
 
 			
