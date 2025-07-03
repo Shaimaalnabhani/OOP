@@ -242,6 +242,30 @@ public class Camera {
 }
 
 
+
+
+public class Bird  
+    {
+		boolean isHungry;
+                int flyingSpeed; 
+
+		public void Eating ()
+			{
+			if (isHungry == true){
+			feed the bired;}
+			else{
+			the bired is full; }
+         }
+
+		public void Flying (int speed )
+			{
+			  this.flyingSpeed=  speed;}
+		
+     }  
+
+
+			
+
 			
 
 			
