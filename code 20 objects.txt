@@ -204,6 +204,44 @@ public class Pen
 	}
 
 
+
+public class Camera {
+
+       boolean powerOn;
+       boolean mood;
+       int zoom;
+
+     public void powerOn(boolean powerOn) {
+     if(powerOn==true){
+     camera powered on;
+}
+     else{
+        camera powered off;
+}
+
+}
+
+    public void changinMood(boolean moodChange){
+       if (moodChange==true){
+       camera is turned on;
+
+}
+       else{
+       camera is turned off;
+}
+}
+    
+        
+   public void zoomIn(int zoomLevel){
+      if(zoomLevel>=50){
+         zoom in;
+}
+      else{
+         zoom out;
+}
+}
+
+
 			
 
 			
