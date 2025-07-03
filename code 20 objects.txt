@@ -172,6 +172,22 @@ public class Ball
 	}
 
 
+
+public class Laptop   
+	{
+		int bettryLevel;
+                int screenSize; 
+
+		public void Battery(int  newBettryLevel )
+			{
+			System.out.println("The screen size is "+ screenSize);	
+			this.bettryLevel= newBettryLevel;}
+			
+	}
+
+			
+
+
 			
 
 
