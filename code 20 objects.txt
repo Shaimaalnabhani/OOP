@@ -84,3 +84,26 @@ public class Refrigerator
           }
 
 
+
+
+public class WaterBottel
+	{
+	        int capacity;
+                
+
+		public void refill(int  newWaterLevel )
+			{
+			this.capacity=  newWaterLevel;}
+			
+
+		public void Open (Boolean isOpen )
+			{
+				if (isOpen == true) {
+			the WaterBottel is opened;}
+				else   {
+			the WaterBottel is closed;}}
+	}
+
+
+		
+
