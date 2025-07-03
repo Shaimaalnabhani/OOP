@@ -145,6 +145,36 @@ public class Car
 	}
 
 
+
+public class Ball   
+	{
+		String balltype;
+                int currentSize; 
+
+		public void rollingBall( boolean isRolling)
+			{
+			if (isRolling == true){
+			ball is rolling;}
+			else{
+			ball is not rolling ; }}
+
+		public void ballsize (int ballSize )
+			{
+			this.currentSize = ballSize;
+       			if (this.currentSize <= 10) {
+            			The ball is in deflate;}
+       			else if (this.currentSize <= 20) {
+           			 The ball is in normal;}
+         		else {
+            			The ball is in inflate;}
+			
+				}
+	}
+
+
+			
+
+
 			
 
 		
