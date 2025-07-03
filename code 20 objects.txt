@@ -64,3 +64,23 @@ public class Phone {
 }
 
 
+
+
+public class Refrigerator   
+	{
+		int temprature ;
+                boolean doorstate; 
+
+		public void cooling(int initialtemp , boolean isOpen )
+			{
+			    this.temperature = initialTemp;
+			      if( isOpen == true ){
+		          	the door is opened ;
+                                 }
+			    else {
+			       the door is closed ;
+                                 }
+                          }
+          }
+
+
