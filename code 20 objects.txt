@@ -264,6 +264,30 @@ public class Bird
      }  
 
 
+
+public class Tree  
+    {
+		int treeage;
+                int treeheight; 
+		boolean Fruit ;
+
+		public void Grow ()
+			{
+			int newAge;
+			this.treeage= newAge;
+			int newTreeHeight;
+			this.treeheight= newTreeHeight;}
+
+		public void shedLeave ( )
+		   {
+			if (Fruit == true) {
+			hearvest the fruit;} 
+		   else   {
+			the tree has to shed its leaves ;}
+     }  
+
+
+
 			
 
 			
