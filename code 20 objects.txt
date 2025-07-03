@@ -350,6 +350,34 @@ public class AC
 
 
 
+
+
+public class Drone 
+	{
+		int batteryLevel ;
+		int speed ; 
+		Boolean isFlying
+		boolean camera; 
+		boolean isOn;
+
+			public void Flying ( int newSpeed)
+			{
+				if (isOn == true){
+					if (isFlying == true){
+						this.speed=  newSpeed;
+						System.out.println("Drone is on and The battery level is "+ batteryLevel);
+						System.out.println("the camera is ON  and the speed is " + newSpeed);}
+					else{
+						System.out.println("Drone is on and The battery level is "+ batteryLevel);
+					 }
+
+				else {
+		System.out.println("Drone is OFF);}
+
+			} 
+	 }
+
+
 			
 
 			
